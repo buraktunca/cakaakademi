@@ -1,0 +1,146 @@
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navlinks li a{
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #555555 !important;
+  letter-spacing: 1px;
+
+}
+
+.navlinks li a:hover{
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: black !important;
+
+
+}
+
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  padding: 30px;
+}
+
+.section-title h4 {
+
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.section-title h4::before,
+.section-title h4::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h4::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h4::after {
+  margin: 0 0 10px 15px;
+}
+
+#user{
+  display: flex;
+  text-align:right;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color:#BD2C27 ;
+  }
+
+
+#banner .section-body{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  display:flex ;
+  text-align: center ;
+  justify-content:center;
+  height: 50vh;
+}
+
+#banner .banpic{
+  width: 90%;
+  height: 100%;
+  display:inline-block;
+  text-align: center;
+}
+
+#trends{
+  margin-bottom: 20px;
+}
+#introduction{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+.answers label{
+  display:inline-block;
+  margin-right: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.answerbutton{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide .card-img-top{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50% !important;
+  height:200px !important;
+}
+
+.card-img-top{
+  display:block;
+  justify-content: center;
+  text-align: center;
+
+}
+.tutorial-btn {
+  display:flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.soruimage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.answers input{
+   height:20px;
+   width:20px;
+   vertical-align: middle;
+}
+#frame {
+  border: 0.5rem outset pink;
+  padding: 5px;
+}
